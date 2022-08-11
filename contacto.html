@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/4748f23a8a.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;0,600;1,300&family=Roboto:ital,wght@0,400;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Proyecto</title>
+</head>
+
+<body>
+  <!--Logo y Menu-->
+  <header class="conteiner site-header">
+    <div class="logo">
+      <img src="imagenes/LOGOcode.png" alt="Logo">
+    </div>
+    <nav>
+      <h2 class="sr-only">Menu de Navegación</h2>
+      <ul class="list-reset navegador">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="curriculum.html">CURRICULUM</a></li>
+        <li><a href="portafolio.html">PORTAFOLIO</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--Parte Principal-->
+  <div class="contacto">
+    <h2>Información de Contacto</h2>
+    <address>
+      <ul>
+        <li>
+          <h3>Teléfono</h3>
+          <p>8554 - 8563</p>
+        </li>
+        <li>
+          <h3>Correo</h3>
+          <p>fabiansandoval406@gmail.com</p>
+        </li>
+      </ul>
+    </address>
+  </div>
+
+  <!--Parte Final-->
+  <form>
+    <div class="marcar">
+    <h2>Contactar</h2>
+    </div>
+    <label for="input-nombre">Nombre</label>
+    <input required autocomplete="name" id="input-nombre" type="text">
+
+    <label for="input-email">Email</label>
+    <input required id="email" id="input-email" type="email">
+
+    <label for="motivo">Motivo de Contacto:</label>
+    <select id="motivo" name="motivo" form="select">
+      <option value=""></option>
+      <option value="1">Contratación</option>
+      <option value="2">Entrevista</option>
+      <option value="3">Soporte y mantenimiento Web</option>
+      <option value="4">Comentario</option>
+    </select>
+
+    <label for="input-mensaje">Comentario</label>
+    <textarea name="Message" id="" cols="30" rows="2"></textarea>
+
+    <button type="submit"> Enviar</button>
+    <button type="reset"> Reiniciar</button>
+    </ul>
+  </form>
+
+  <footer class="site-footer">
+    <h2>Redes Sociales</h2>
+    <section>
+      <ul>
+        <li><a href="https://www.facebook.com/fabian.sandoval.1291"><i class="fa-brands fa-facebook-square"></i></a>
+        </li>
+        <li><a href="https://www.instagram.com/fabsandoval_20/?hl=es-la"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="https://www.snapchat.com/add/fabian4186?share_id=_jFyS_Az_ls&locale=es-CR"><i
+              class="fa-brands fa-snapchat"></i></a></li>
+      </ul>
+    </section>
+  </footer>
+</body>
+
+</html>

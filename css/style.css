@@ -1,0 +1,264 @@
+/*Estilos base*/
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(131,168,221);
+background: linear-gradient(180deg, rgba(131,168,221,1) 0%, rgba(34,51,172,1) 100%);
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  color: white;
+}
+
+img{
+  height: auto;
+  max-width: 100%;
+  max-height: 9.375rem;  
+}
+
+h1{
+  font-size: 55px;
+  color: black;
+}
+
+h2{
+  font-size: 35px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+
+h3{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+p{
+  font-size: 17px;
+}
+
+
+/*Estilos extras*/
+.sr-only{
+  clip:rect(0 0 0);
+  clip-path: inset(50%);
+  height: 0.0625rem;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 0.0625rem;
+}
+
+/*Estilos de la página*/
+
+
+.site-header{
+  display: flex;
+  padding: 0.625rem 0;
+  align-items: center;
+}
+
+.site-header logo{
+  margin-right: 1.5625rem;
+}
+
+.site-header nav{
+  display: flex;
+  flex-grow: 1;
+}
+
+.navegador li{
+  margin: 0 1.5625rem;
+}
+
+.site-header li{
+  display: inline;
+}
+
+.main{
+  margin-left: 9.375rem; 
+  margin-top: -4.375rem;
+}
+
+.proyectos-recientes{
+  margin-left: 9.375rem;
+  margin-bottom: -1.5rem;
+}
+
+.dos-recientes ul{
+  display: flex;
+  list-style-type: none;
+}
+
+.dos-recientes ul li{
+  margin: 1.25rem;
+}
+
+.site-footer{
+  margin-left: 9.375rem;
+}
+
+.site-footer ul{
+  display: flex;
+  list-style-type: none;
+}
+
+.site-footer li{
+  font-size: 1.875rem;
+  margin-right: 2.5rem;
+}
+
+.site-footer ul li a{
+  color: white;
+}
+
+
+/*CURRICULUM*/
+
+.informacion{
+  margin-left: 9.375rem;
+}
+
+.listas{
+  display: flex;
+}
+
+.listas li{
+  list-style-type: none;
+}
+
+.lista-1{
+  background: rgb(36,52,77);
+  background: linear-gradient(180deg, rgba(36,52,77,1) 0%, rgba(103,128,201,1) 100%);
+  border-radius: 1.25rem;
+  margin-right: 0.9375rem;
+  padding-right: 1.5625rem;
+}
+
+.lista-2{
+  background: rgb(36,52,77);
+  background: linear-gradient(180deg, rgba(36,52,77,1) 0%, rgba(103,128,201,1) 100%);
+  border-radius: 1.25rem;
+  margin-left: 0.9375rem;
+  padding-right: 1.5625rem;
+}
+
+/*PORTAFOLIO*/
+
+.portafolio{
+  margin-left: 9.375rem;
+}
+
+.portafolio li{
+  list-style-type: none;
+}
+
+.listas-proyectos{
+  display: flex;
+}
+
+.proyectos-1{
+  background: rgb(36,52,77);
+  background: linear-gradient(180deg, rgba(36,52,77,1) 0%, rgba(103,128,201,1) 100%);
+  border-radius: 1.25rem;
+  margin-right: 0.9375rem;
+  padding: 1.25rem;
+  padding-right: 1.5625rem;
+}
+
+.proyectos-2{
+  background: rgb(36,52,77);
+  background: linear-gradient(180deg, rgba(36,52,77,1) 0%, rgba(103,128,201,1) 100%);
+  border-radius: 1.25rem;
+  margin-left: 0.9375rem;
+  padding-right: 1.5625rem;
+  padding: 1.25rem;
+}
+
+/*CONTACTO*/
+
+.contacto{
+  margin-left: 9.375rem;
+  margin-top: -3.125rem;
+}
+
+.marcar h2{
+  color: rgb(255, 255, 255);
+}
+
+.contacto h3{
+  color: white;
+}
+
+.contacto ul{
+  display: flex;
+  list-style-type:none ;
+}
+
+.contacto li{
+  margin-right: 3.125rem;
+}
+
+/* CONTACTO */
+
+form{
+  width: 450px;
+  margin-left: 150px;
+  background: rgb(36,52,77);
+  background: linear-gradient(180deg, rgba(36,52,77,1) 0%, rgba(103,128,201,1) 100%);
+  border-radius: 1.25rem;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+input, textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+  border-radius: 8px;
+}
+
+textarea{
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+input, select{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+  border-radius: 8px;
+}
+
+button{
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+
